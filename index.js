@@ -1,6 +1,6 @@
 require("dotenv").config();
 const express = require("express");
-const webhookRouter = require("./routes/webhookRout");
+const webhookRouter = require("./routes/inventory-webhook");
 const app = express();
 const PORT = process.env.PORT || 8080;
 const mongoose = require("mongoose");
